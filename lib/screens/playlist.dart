@@ -7,11 +7,13 @@ class Tracks {
   Tracks(
       {@required this.coverPath,
       @required this.title,
-      @required this.subtitle});
+      @required this.subtitle,
+      @required this.musicUrl});
 
   final coverPath;
   final title;
   final subtitle;
+  final musicUrl;
 }
 
 class PlaylistScreen extends StatelessWidget {
@@ -40,36 +42,50 @@ class MusicList extends StatelessWidget {
       coverPath: 'assets/rhcp.jpg',
       title: 'Californication',
       subtitle: 'RHCP · Californication',
+      musicUrl:
+          'https://raw.githubusercontent.com/gabrielgene/flutter_music_player/master/assets/californication.mp3',
     ),
     Tracks(
       coverPath: 'assets/bytheway.jpg',
       title: 'By the Way',
       subtitle: 'RHCP · By the Way',
+      musicUrl:
+          'https://raw.githubusercontent.com/gabrielgene/flutter_music_player/master/assets/bytheway.mp3',
     ),
     Tracks(
       coverPath: 'assets/dark.webp',
       title: 'Dark Necessities',
       subtitle: 'RHCP · The Getaway',
+      musicUrl:
+          'https://raw.githubusercontent.com/gabrielgene/flutter_music_player/master/assets/darknecessities.mp3',
     ),
     Tracks(
       coverPath: 'assets/believer.jpg',
       title: 'Believer',
       subtitle: 'Imagine Dragons · Evolve',
+      musicUrl:
+          'https://raw.githubusercontent.com/gabrielgene/flutter_music_player/master/assets/believer.mp3',
     ),
     Tracks(
       coverPath: 'assets/intheend.jpeg',
       title: 'In the End',
       subtitle: 'Linkin Park · Hybrid Theory',
+      musicUrl:
+          'https://raw.githubusercontent.com/gabrielgene/flutter_music_player/master/assets/intheend.mp3',
     ),
     Tracks(
       coverPath: 'assets/bib.jpg',
       title: 'Back in Black',
       subtitle: 'AC/DC · Back in Black',
+      musicUrl:
+          'https://raw.githubusercontent.com/gabrielgene/flutter_music_player/master/assets/backinblack.mp3',
     ),
     Tracks(
       coverPath: 'assets/sna.jpg',
       title: 'Seven nation army',
       subtitle: 'The White Stripes · Elephant',
+      musicUrl:
+          'https://raw.githubusercontent.com/gabrielgene/flutter_music_player/master/assets/sevennation.mp3',
     ),
   ];
 
